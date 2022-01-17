@@ -38,39 +38,57 @@
                         <li class="nav-item">
                             <a class="nav-link" href="products.html">Products</a>
                         </li>
-                        <li class="nav-item active">
+                        <li class="nav-item">
                             <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
                         </li>
                     </ul>
                 </div>
             </nav>
+            
 
             <div class="container">
-                <h1>Contact Us</h1>
-                <div class="row">
-                    <div class="col-md order-md-2">
-                        <ul class="list-group">
-                            <li class="list-group-item">Cras justo odio</li>
-                            <li class="list-group-item">Dapibus ac facilisis in</li>
-                            <li class="list-group-item">Morbi leo risus</li>
-                        </ul>
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                      <li class="breadcrumb-item"><a href="#">Home</a></li>
+                      <li class="breadcrumb-item" aria-current="page">Library</li>
+                    </ol>
+                </nav>
+                
+                <div class="product-top">
+                    <h1>Product One</h1>
+
+                    <div class="tags">
+                        <span class="badge badge-light">Tag 1</span>
+                        <span class="badge badge-light">Tag 2</span>
+                        <span class="badge badge-light">Tag 3</span>
                     </div>
-                    <div class="col-md order-md-1">
-                        <form class="contact-form">
-                            <div class="form-group">
-                                <label for="name">Name</label>
-                                <input type="email" class="form-control" id="name" />
-                            </div>
-                            <div class="form-group">
-                                <label for="email">Email</label>
-                                <input type="password" class="form-control" id="email" />
-                            </div>
-                            <div class="form-group">
-                                <label for="message">Message</label>
-                                <textarea class="form-control" id="message" rows="6"></textarea>
-                            </div>
-                            <button type="submit" class="btn btn-primary">Submit</button>
-                        </form>
+                </div>
+                <div class="embed-responsive embed-responsive-21by9">
+                    <div class="embed-responsive-item product-detail-image" style="background-image: url(images/products/product-detail.jpg);"">
+                    <div class="product-detail-caption">This is a modified jumbotron that occupies the entire horizontal space of its parent.</div>
+                </div>
+            </div>
+            <div class="product-content">
+                <div class="row">
+                    <div class="col-md">
+                        <h2>Sed tincidunt pharetra nulla</h2>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, doloribus sequi? Veniam placeat odio alias voluptatum obcaecati doloribus earum. Accusantium alias eum nemo
+                            ullam possimus, repellendus odit earum corrupti, exercitationem autem rem rerum temporibus, quibusdam quod commodi sit quam? Magnam.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque dolorem possimus repellendus excepturi, voluptas tempora!
+                        </p>
+                    </div>
+                    <div class="col-md">
+                        <ul class="product-list">
+                            <li><i class="fa fa-tag"></i> Nullam consequat vulputate mi.</li>
+                            <li><i class="fa fa-rocket"></i> Donec eget condimentum mauris. In hac habitasse.</li>
+                            <li><i class="fa fa-adjust"></i>Etiam facilisis ut urna.</li>
+                        </ul>
                     </div>
                 </div>
             </div>
